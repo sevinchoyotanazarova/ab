@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            height: 10000px;
+        }
+        .p1{
+            background-color: aqua;
+            color: aliceblue;
+            padding: 15px;
+            border-radius: 12px;
+            border: 12px solid;
+            position: relative;
+            top: 50px;
+        }
+        .p4{
+            background-color: red;
+            position: fixed;
+        }
+        .div1{
+            background-color: aliceblue;
+            border: 1px solid red;
+            padding: 15px;
+            height: 200px;
+        }
+        .p5{
+            background-color: blue;
+            position: absolute;
+            top: 25px;
+            left: 30px;
+            right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <section>
+            <p>
+                <b>Absolute-</b> element o`zining eng yaqain joylashtirilgan ajdod elementiga nisbatan joylashadi. Joylashtirilgan degani,position xossasi static qiymatdan boshqa qiymatag ega bo`lgan elementga aytiladi
+            </p>
+            <p>
+                <b>Sticky-</b> element scrollning qayerda joylashganiga qarab joylashadi.Bu qiymat relative va fixed qiymatlarni o`zida saqlaydi va scrollni qayerad joylashganiga qarab shu ikki qiymatdan birini o`ziga oladi
+            </p>
+            <p class="p1">
+                absolute element ishlatilishi
+            </p>
+            <p class="p4">Sticky elementi ishlatilishi</p>
+        </section>
+    </section>
+</body>
+</html>
